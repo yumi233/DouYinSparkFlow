@@ -1,4 +1,4 @@
-# DouYin Spark Flow1
+# DouYin Spark Flow
 
 ![cover](docs/images/cover.png)
 
@@ -6,7 +6,21 @@
 ![Playwright](https://img.shields.io/badge/Playwright-%E2%9C%94-green?logo=playwright)
 ![chrome-headless-shell](https://img.shields.io/badge/chrome--headless--shell-%E2%9C%94-brightgreen?logo=googlechrome)
 
-> `dev`分支迁移到`https://www.douyin.com/chat` 加载更稳定，支持通过备注/昵称/抖音号等多种方式智能匹配。由于`https://www.douyin.com/chat`没经过长期测试，该分支目前暂不合并。有能力的可以研究一下
+> 由于`抖音创作者更新后不能发送私信`项目已迁移到`https://www.douyin.com/chat` 加载更稳定，支持通过备注/昵称/抖音号等多种方式智能匹配。目前`https://www.douyin.com/chat`没经过长期测试
+>
+> 反馈Github Action部署会被抖音检测到踢下线，暂时不确定消息可靠性。但已增加Docker部署方式，有条件的可以使用自己服务器部署。
+
+## 🎁 限时公益服，先到先得
+
+不方便自行部署的用户，可以直接使用已部署的多用户 Web 控制台。
+
+这是由网友自建提供的公益服，自行评估风险后使用。详情见：
+
+[discussions76](https://github.com/2061360308/DouYinSparkFlow/discussions/76)
+
+**在线入口：[https://wangze.oilu.cn/admin](https://wangze.oilu.cn/admin)**
+
+> 邀请码显示无效通常表示已经被其他用户使用，请更换另一个邀请码。请勿向他人提供账号密码、短信验证码或抖音登录凭证，并合理控制任务数量与发送频率。
 
 ## 贡献者
 
@@ -31,19 +45,11 @@
 - [x] 支持按照昵称和抖音号两种方式查找好友目标
 - [x] 一言支持,更丰富的消息文本
 
-使用`PlayWright`以及`chrome-headless-shell`自动化操作[抖音创作者中心](https://creator.douyin.com/)，进行定时发送抖音消息来续火花
+使用`PlayWright`以及`chrome-headless-shell`自动化操作[抖音聊天网页版](https://www.douyin.com/chat)，进行定时发送抖音消息来续火花
 
 ## 🚀 使用方法
 
-**材料准备：** 一个 GitHub 账号和可用浏览器即可，不设额外门槛。
-
-**编辑项目配置：** 保姆级教程见 [配置生成器使用](docs/配置生成器使用.md)
-
-**部署方法：**
-
-1. Github Action 部署（推荐👍），操作说明见 [Action部署说明](docs/Action部署说明.md)
-
-2. 源码部署 （更适合高级用户），操作说明见[源代码部署说明](docs/源代码部署说明.md)
+保姆级教程见 [项目文档-https://oilu.cn/DouYinSparkFlow](https://oilu.cn/DouYinSparkFlow)
 
 ## 📢交流讨论
 
@@ -51,6 +57,10 @@
 
 [跳转讨论区](https://github.com/2061360308/DouYinSparkFlow/discussions)
 
+此外创建了一个QQ群，主要用于作者收集反馈信息，愿意帮助测试的朋友可以加入
+
+[点此加入群聊](https://qun.qq.com/universal-share/share?ac=1&authKey=r6QyQAfAdjDnardyxro5kycsnF%2BdsLBTGUPWh7gFxqutzbbVF2shbgmqNJyCRdbZ&busi_data=eyJncm91cENvZGUiOiIxMDkxNjUxNDYyIiwidG9rZW4iOiJPdlB6dDU2Y2RxMzZ3L2ZWU01LNWtxM0ZWSW56QzlpSmZ5dnZVYWI3dzJWY2hVQmROeHZHN3QwdEpvUGJsc0JnIiwidWluIjoiMjA2MTM2MDMwOCJ9&data=L-_Gkg2cVrzDBW6FWJnD31g0RDbq67_YR0WK17hkRrMetritPsn3gvtBMXpTmY8Y8UZDlwY9qz5liHbbG3YDlg&svctype=4&tempid=h5_group_info
+)
 ## ⭐Star 趋势
 
 [![Star History Chart](https://api.star-history.com/svg?repos=2061360308/DouYinSparkFlow&type=Date)](https://www.star-history.com/#2061360308/DouYinSparkFlow&Date)
